@@ -1,0 +1,1127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bangers&family=Caveat:wght@500&family=Ceviche+One&family=Cinzel&family=Comforter+Brush&family=Courgette&family=Creepster&family=Grechen+Fuemen&family=Licorice&family=Modak&family=Moo+Lah+Lah&family=Nunito+Sans:ital,wght@1,300&family=Pacifico&family=Playball&family=Satisfy&family=Secular+One&family=Sedgwick+Ave&family=Shizuru&family=Sigmar+One&family=Supermercado+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+
+
+
+
+
+
+
+        .container{
+            width:100%;
+            display:grid;
+            grid-template-columns: 100%;
+            grid-template-rows:10vh 90vh 6vh 25vh 3vh 40vh 3vh 40vh 3vh 40vh 3vh 40vh 3vh 40vh 3vh 40vh 3vh 40vh 3vh 40vh 3vh 40vh 5vh 5vh;
+        }
+        .child-1{
+            background-color:black;
+            display:grid;
+            grid-template-columns: 20% 15%;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo{
+            width:100%;
+            background-color:black;
+        }
+        .logo img{
+            width:100%;
+            object-fit: contain;
+        }
+
+        .menu{
+            width:100%;
+            height:100%;
+            display:grid;
+            grid-template-columns: 33% 33% 33%;
+            grid-template-rows:100%;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .menu li{
+            font-size:30px;
+            color:white;
+            list-style: none;
+        }
+
+
+
+
+        .child-2{
+            padding:30px;
+            display:grid;
+            background-color:black;
+            grid-template-columns: 20% 20% 20% 20% ;
+            grid-template-rows:31% 31% 31%;
+            gap:20px;
+            justify-content: center;
+            padding-left:30px;
+            padding-right:30px;
+        }
+        .kid{
+            background-color:black;
+            border-radius:3%;
+            position:relative;
+        }
+        .kid img{
+            width:100%;
+            height:100%;
+            object-fit: cover;
+            border-radius:3%;
+            border:1px solid silver;
+        }
+        .kid-1{
+            width:100%;
+
+        }
+        .kid p1{
+            font-size:20px;
+            color:white;
+            position:absolute;
+            right:15%;
+            bottom:3%;
+        }
+        .kid p1:hover{
+            color:blue;
+        }
+            
+
+
+
+
+
+        .child-3{
+            background-color:black;
+            display:grid;
+            grid-template-columns: 80%;
+            grid-template-rows: 100%;
+            justify-content: center;
+        }
+        .btn-1{
+            width:100%;
+            height:100%;
+            background-color:black;
+            color:gray;
+            cursor:pointer;
+            border-radius:5%;
+        }
+        .btn-1:hover{
+            background-color:cyan;
+        }
+
+
+
+
+
+
+
+        .banner{
+            padding:10px;
+            width:100%;
+            background-color:black;
+            display:grid;
+            grid-template-columns:60%;
+            grid-template-rows: 100%;;
+            justify-content: center;
+        }
+        .zurag{
+            background-color:black;
+            background-image:url(/OP\ banner.jpg);
+            background-size:cover;
+            background-repeat:none;
+            background-position: center;
+        }
+
+        .duusgasan{
+            width:100%;
+            background-color:black;
+            display:grid;
+            grid-template-columns:72%;
+            grid-template-rows:100%;
+            justify-content: center;
+        }
+        .duussan a{
+            background-color:black;
+            color:white;
+            text-decoration: none;
+        }
+
+
+        .mago{
+            background-color:black;
+            display:grid;
+            justify-content: center;
+            grid-template-columns: 12% 12% 12% 12% 12% 12%;
+            grid-template-rows: 100%;
+            gap:5px;
+            padding:20px;
+        }
+        .hello{
+            background-color:black;
+            position:relative;
+        }
+        .hello img{
+            width:100%;
+            height:100%;
+            object-fit: cover;
+            opacity:100%;
+            cursor:pointer;
+            
+        }
+        .hello h2{
+            position:absolute;
+            font-size:20px;
+            color:blue;
+            top:79%;
+            bottom:0%;
+            left:0%;
+            right:0%;
+            text-align: center;
+            opacity: 0%;
+            cursor:pointer;
+            font-family: 'Supermercado One', cursive;
+        }
+        .hello h2:hover{
+            opacity: 100%;
+        }
+        .hello img:hover{
+            background-color:rgba(0), 0, 0, 0.7);
+        }
+
+
+
+        .footer1{
+            width:100%;
+            background-color:black;
+            display:grid;
+            grid-template-columns: 5% 5% 5%;
+            justify-content: flex-end;
+            align-items: center; 
+        }
+        .footer1 i{
+            font-size:20px;
+            color:white;
+        }
+        .footer2{
+            width:100%;
+            background-color:black;
+            display:grid;
+            justify-content: center;
+            align-items: center;
+        }
+        .footer2 p1{
+            color:white;
+        }
+
+
+
+
+
+        @media screen and (min-width:801px) and (max-width:1200px){
+        .container{
+            width:100%;
+            display:grid;
+            grid-template-columns: 100%;
+            grid-template-rows:15vh 80vh 3vh 20vh 3vh 30vh 3vh 30vh 3vh 30vh 3vh 30vh 3vh 30vh 3vh 30vh 3vh 30vh 3vh 30vh 3vh 30vh 4vh 4vh;
+        }
+        .child-1{
+            background-color:black;
+            display:grid;
+            grid-template-columns: 60% 30%;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo{
+            width:100%;
+            background-color:black;
+        }
+        .logo img{
+            width:100%;
+            height:100%;
+            object-fit: cover;
+        }
+
+        .menu{
+            width:100%;
+            height:100%;
+            display:grid;
+            grid-template-columns: 33% 33% 33%;
+            grid-template-rows:100%;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .menu li{
+            font-size:35px;
+            color:white;
+            list-style: none;
+        }
+
+
+
+
+        .child-2{
+            padding:30px;
+            display:grid;
+            background-color:black;
+            grid-template-columns: 23% 23% 23% 23% ;
+            grid-template-rows:31% 31% 31%;
+            gap:20px;
+            justify-content: center;
+            padding-left:10px;
+            padding-right:10px;
+
+        }
+        .kid p1{
+            font-size:20px;
+            color:white;
+            position:absolute;
+            right:15%;
+            bottom:3%;
+        }
+
+
+
+        .child-3{
+            background-color:black;
+            display:grid;
+            grid-template-columns: 80%;
+            grid-template-rows: 100%;
+            justify-content: center;
+        }
+        .btn-1{
+            width:100%;
+            height:100%;
+            background-color:black;
+            color:gray;
+            cursor:pointer;
+            border-radius:5%;
+            font-size:15px;
+        }
+
+
+
+
+
+
+
+
+        .banner{
+            padding:10px;
+            width:100%;
+            background-color:black;
+            display:grid;
+            grid-template-columns:80%;
+            grid-template-rows: 100%;;
+            justify-content: center;
+        }
+        .duusgasan{
+            width:100%;
+            background-color:black;
+            display:grid;
+            grid-template-columns:72%;
+            grid-template-rows:100%;
+            justify-content: center;
+        }
+        .duussan a{
+            background-color:black;
+            color:white;
+            text-decoration: none;
+            font-size:17px;
+        }
+
+
+        .mago{
+            background-color:black;
+            display:grid;
+            justify-content: center;
+            grid-template-columns: 13% 13% 13% 13% 13% 13%;
+            grid-template-rows: 100%;
+            gap:5px;
+            padding:20px;
+        }
+        .hello{
+            background-color:black;
+        }
+        .hello img{
+            width:100%;
+            height:100%;
+            object-fit: cover;
+        }
+        .footer1{
+            width:100%;
+            background-color:black;
+            display:grid;
+            grid-template-columns: 10% 10% 10%;
+            justify-content: flex-end;
+            align-items: center; 
+        }
+        .footer1 i{
+            font-size:20px;
+            color:white;
+        }
+        .footer2{
+            width:100%;
+            background-color:black;
+            display:grid;
+            justify-content: center;
+            align-items: center;
+        }
+        .footer2 p1{
+            color:white;
+        }
+
+
+
+
+        }
+
+
+    @media screen and (min-width:450px) and (max-width:800px){
+        .container{
+            width:100%;
+            display:grid;
+            grid-template-columns: 100%;
+            grid-template-rows:8vh 80vh 5vh 15vh 3vh 25vh 3vh 25vh 3vh 25vh 3vh 25vh 3vh 25vh 3vh 25vh 3vh 25vh 3vh 25vh 3vh 25vh 3vh 3vh;
+        }
+        .child-1{
+            background-color:black;
+            display:grid;
+            grid-template-columns: 60% 30%;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo{
+            width:100%;
+            background-color:black;
+        }
+        .logo img{
+            width:100%;
+            object-fit: contain;
+        }
+
+        .menu{
+            width:100%;
+            height:100%;
+            display:grid;
+            grid-template-columns: 33% 33% 33%;
+            grid-template-rows:100%;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .menu li{
+            font-size:25px;
+            color:white;
+            list-style: none;
+        }
+
+
+
+
+        .child-2{
+            padding:30px;
+            display:grid;
+            background-color:black;
+            grid-template-columns: 30% 30% 30% ;
+            grid-template-rows:23% 23% 23% 23%;
+            gap:20px;
+            justify-content: center;
+            padding-left:10px;
+            padding-right:10px;
+
+        }
+        .kid p1{
+            font-size:15px;
+            color:white;
+            position:absolute;
+            right:15%;
+            bottom:3%;
+        }
+
+
+
+        .child-3{
+            background-color:black;
+            display:grid;
+            grid-template-columns: 80%;
+            grid-template-rows: 100%;
+            justify-content: center;
+        }
+        .btn-1{
+            width:100%;
+            height:100%;
+            background-color:black;
+            color:gray;
+            cursor:pointer;
+            border-radius:5%;
+            font-size:15px;
+        }
+
+
+
+
+
+
+
+
+        .banner{
+            padding:10px;
+            width:100%;
+            background-color:black;
+            display:grid;
+            grid-template-columns:85%;
+            grid-template-rows: 100%;;
+            justify-content: center;
+        }
+        .duusgasan{
+            width:100%;
+            background-color:black;
+            display:grid;
+            grid-template-columns:72%;
+            grid-template-rows:100%;
+            justify-content: center;
+        }
+        .duussan a{
+            background-color:black;
+            color:white;
+            text-decoration: none;
+            font-size:17px;
+        }
+
+
+        .mago{
+            background-color:black;
+            display:grid;
+            justify-content: center;
+            grid-template-columns: 13% 13% 13% 13% 13% 13%;
+            grid-template-rows: 100%;
+            gap:5px;
+            padding:20px;
+        }
+        .hello{
+            background-color:black;
+        }
+        .hello img{
+            width:100%;
+            height:100%;
+            object-fit: cover;
+        }       
+        
+        .hello h2{
+            position:absolute;
+            font-size:5px;
+            color:white;
+            top:82%;
+            bottom:0%;
+            left:0%;
+            right:0%;
+            text-align: center;
+            opacity: 100%;
+            cursor:pointer;
+        }
+        .hello h2:hover{
+            opacity: 100%;
+        }
+
+
+
+
+
+
+
+        .footer1{
+            width:100%;
+            background-color:black;
+            display:grid;
+            grid-template-columns: 10% 10% 10%;
+            justify-content: flex-end;
+            align-items: center; 
+        }
+        .footer1 i{
+            font-size:20px;
+            color:white;
+        }
+        .footer2{
+            width:100%;
+            background-color:black;
+            display:grid;
+            justify-content: center;
+            align-items: center;
+        }
+        .footer2 p1{
+            color:white;
+        }
+
+
+
+
+        }
+
+    @media screen and (min-width:200px) and (max-width:449px){
+        .container{
+            width:100%;
+            display:grid;
+            grid-template-columns: 100%;
+            grid-template-rows:8vh 80vh 3vh 10vh 3vh 25vh 3vh 25vh 3vh 25vh 3vh 25vh 3vh 25vh 3vh 25vh 3vh 25vh 3vh 25vh 3vh 25vh 3vh 3vh;
+        }
+        .child-1{
+            background-color:black;
+            display:grid;
+            grid-template-columns: 60% 30%;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo{
+            width:100%;
+            background-color:black;
+        }
+        .logo img{
+            width:100%;
+            object-fit: contain;
+        }
+
+        .menu{
+            width:100%;
+            height:100%;
+            display:grid;
+            grid-template-columns: 33% 33% 33%;
+            grid-template-rows:100%;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .menu li{
+            font-size:20px;
+            color:white;
+            list-style: none;
+        }
+
+
+
+
+        .child-2{
+            padding:30px;
+            display:grid;
+            background-color:black;
+            grid-template-columns: 45% 45% ;
+            grid-template-rows:14% 14% 14% 14% 14% 14%;
+            gap:20px;
+            justify-content: center;
+            padding-left:10px;
+            padding-right:10px;
+
+        }
+        .kid p1{
+            font-size:10px;
+            color:white;
+            position:absolute;
+            right:15%;
+            bottom:3%;
+        }
+
+
+
+        .child-3{
+            background-color:black;
+            display:grid;
+            grid-template-columns: 80%;
+            grid-template-rows: 100%;
+            justify-content: center;
+        }
+        .btn-1{
+            width:100%;
+            height:100%;
+            background-color:black;
+            color:gray;
+            cursor:pointer;
+            border-radius:5%;
+            font-size:10px;
+        }
+
+
+
+
+
+
+
+
+        .banner{
+            padding:10px;
+            width:100%;
+            background-color:black;
+            display:grid;
+            grid-template-columns:90%;
+            grid-template-rows: 100%;;
+            justify-content: center;
+        }
+        .zurag{
+            background-color:black;
+            background-image:url(/OP\ banner.jpg);
+            background-size:cover;
+            background-repeat:none;
+            background-position: center;
+        }
+        .duusgasan{
+            width:100%;
+            background-color:black;
+            display:grid;
+            grid-template-columns:72%;
+            grid-template-rows:100%;
+            justify-content: center;
+        }
+        .duussan a{
+            background-color:black;
+            color:white;
+            text-decoration: none;
+            font-size:12px;
+        }
+
+
+        .mago{
+            background-color:black;
+            display:grid;
+            justify-content: center;
+            grid-template-columns: 32% 32% 32%;
+            grid-template-rows:45% 45%;
+            gap:5px;
+            padding:20px;
+        }
+        .hello{
+            background-color:black;
+        }
+        .hello img{
+            width:100%;
+            height:100%;
+            object-fit: cover;
+        }
+        .hello h2{
+            position:absolute;
+            font-size:7px;
+            color:white;
+            top:82%;
+            bottom:0%;
+            left:0%;
+            right:0%;
+            text-align: center;
+            opacity: 100%;
+            cursor:pointer;
+        }
+        .hello h2:hover{
+            opacity: 100%;
+        }
+        .hello img:hover{
+            background-color:rgba(0), 0, 0, 0.7);
+        }
+
+
+        .footer1{
+            width:100%;
+            background-color:black;
+            display:grid;
+            grid-template-columns: 10% 10% 10%;
+            justify-content: flex-end;
+            align-items: center; 
+        }
+        .footer1 i{
+            font-size:20px;
+            color:white;
+        }
+        .footer2{
+            width:100%;
+            background-color:black;
+            display:grid;
+            justify-content: center;
+            align-items: center;
+        }
+        .footer2 p1{
+            color:white;
+        }
+
+
+
+
+        }
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="child child-1">
+            <div class="logo">
+                <img src="mnfansubs.png" alt="logo"/>
+            </div>
+            <div class="menu">
+                <li><i class="fas fa-film"></i></li>
+                <li><i class="fas fa-search"></i></li>
+                <li><i class="fas fa-bars"></i></li>
+            </div>
+        </div>
+        <div class="child child-2">
+            <div class="kid">
+                <img src="shineanime1.jpg"/>
+                <p1>Сүнс хардаг охин:13р анги</p1>
+            </div>
+            <div class="kid">
+                <img src="shineanime2.jpg"/>
+                <p1>Сүнс хардаг охин: 12р анги</p1>
+            </div>
+            <div class="kid">
+                <img src="shineanime3.jpg"/>
+                <p1>Сүнс хардаг охин:11р анги</p1>
+            </div>
+            <div class="kid">
+                <img src="shineanime4.jpg"/>
+                <p1>Сүнс хардаг охин:10р анги</p1>
+            </div>
+            <div class="kid">
+                <img src="shineanime5.jpg"/>
+                <p1>Сүнс хардаг охин:9р анги</p1>
+            </div>
+            <div class="kid">
+                <img src="shineanime6.jpg"/>
+                <p1>Сүнс хардаг охин:8р анги</p1>
+            </div>
+            <div class="kid">
+                <img src="shineanime7.jpg"/>
+                <p1>Сүнс хардаг охин:7р анги</p1>
+            </div>
+            <div class="kid">
+                <img src="shineanime8.jpg"/>
+                <p1>Сүнс хардаг охин:6р анги</p1>
+            </div>
+            <div class="kid">
+                <img src="shineanime9.jpg"/>
+                <p1>Сүнс хардаг охин:5р анги</p1>
+            </div>
+            <div class="kid">
+                <img src="shineanime10.jpg"/>
+                <p1>Сүнс хардаг охин:4р анги</p1>
+            </div>
+            <div class="kid">
+                <img src="shineanime11.jpg"/>
+                <p1>Сүнс хардаг охин:3р анги</p1>
+            </div>
+            <div class="kid">
+                <img src="shineanime12.jpg"/>
+                <p1>Сүнс хардаг охин:2р анги</p1>
+            </div>
+        </div>
+        <div class="child child-3">
+            <button class="btn-1">Цааш үзэх</button>
+        </div>
+        <div class="banner">
+            <div class="zurag">
+            </div>
+        </div>
+        <div class="duusgasan">
+            <div class="duussan">
+                <a href="">Дуусгасан анимэнууд</a>
+            </div>
+        </div>
+        <div class="mago">
+            <div class="hello">
+                <img src="duusgasan1.jpg"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+            <div class="hello">
+                <img src="duusgasan2.jpg"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+            <div class="hello">
+                <img src="duusgasan3.jpg"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+            <div class="hello">
+                <img src="duusgasan4.jpg"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+            <div class="hello">
+                <img src="duusgasan5.jpg"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+            <div class="hello">
+                <img src="duusgasan6.jpg"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+        </div>
+        <div class="duusgasan">
+            <div class="duussan">
+                <a href="">Орчуулж байгаа анимэнууд</a>
+            </div>
+        </div>
+        <div class="mago">
+            <div class="hello">
+                <img src="orchuuljbaigaa1.jpg"/>
+                <div class="gradient"></div>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+            <div class="hello">
+                <img src="orchuuljbaigaa2.png"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+            <div class="hello">
+                <img src="orchuuljbaigaa3.jpg"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+            <div class="hello">
+                <img src="orchuuljbaigaa4.jpg"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+            <div class="hello">
+                <img src="orchuuljbaigaa5.png"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+            <div class="hello">
+                <img src="orchuuljbaigaa6.jpg"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+        </div>
+        <div class="duusgasan">
+            <div class="duussan">
+                <a href="">Анимэ кинонууд</a>
+            </div>
+        </div>
+        <div class="mago">
+            <div class="hello">
+                <img src="animekino1.jpg"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+            <div class="hello">
+                <img src="animekino2.jpg"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+            <div class="hello">
+                <img src="animekino3.jpg"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+            <div class="hello">
+                <img src="animekino4.jpg"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+            <div class="hello">
+                <img src="hosoda1.jpg"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+            <div class="hello">
+                <img src="animekino6.jpg"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+        </div>
+        <div class="duusgasan">
+            <div class="duussan">
+                <a href="">Нэтфликс цувралууд</a>
+            </div>
+        </div>
+        <div class="mago">
+            <div class="hello">
+                <img src="netflix1.jpg"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+            <div class="hello">
+                <img src="netflix2.png"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+            <div class="hello">
+                <img src="netflix3.jpg"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+            <div class="hello">
+                <img src="netflix4.jpg"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+            <div class="hello">
+                <img src="netflix5.jpg"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+            <div class="hello">
+                <img src="netflix6.jpeg"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+        </div>
+        <div class="duusgasan">
+            <div class="duussan">
+                <a href="">Найруулагч Шинкай Макотон цуглуулга</a>
+            </div>
+        </div>
+        <div class="mago">
+            <div class="hello">
+                <img src="shineanime2.jpg"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+            <div class="hello">
+                <img src="shineanime11.jpg"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+            <div class="hello">
+                <img src="shineanime1.jpg"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+            <div class="hello">
+                <img src="shineanime3.jpg"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+            <div class="hello">
+                <img src="shineanime5.jpg"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+            <div class="hello">
+                <img src="shineanime7.jpg"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+        </div>
+        <div class="duusgasan">
+            <div class="duussan">
+                <a href="">Найруулагч Хосода Маморүгийн цуглуулга</a>
+            </div>
+        </div>
+        <div class="mago">
+            <div class="hello">
+                <img src="hosoda1.jpg"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+            <div class="hello">
+                <img src="hosoda2.png"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+            <div class="hello">
+                <img src="hosoda3.jpg"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+            <div class="hello">
+                <img src="hosoda4.jpg"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+            <div class="hello">
+                <img src="shineanime8.jpg"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+            <div class="hello">
+                <img src="shineanime9.jpg"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+        </div>
+        <div class="duusgasan">
+            <div class="duussan">
+                <a href="">Кон сатошигийн цуглуулгаа</a>
+            </div>
+        </div>
+        <div class="mago">
+            <div class="hello">
+                <img src="orchuuljbaigaa4.jpg"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+            <div class="hello">
+                <img src="shineanime12.jpg"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+            <div class="hello">
+                <img src="orchuuljbaigaa2.png"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+            <div class="hello">
+                <img src="netflix3.jpg"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+            <div class="hello">
+                <img src="shinanime5.jpg"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+            <div class="hello">
+                <img src="animekino3.jpg"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+        </div>
+        <div class="duusgasan">
+            <div class="duussan">
+                <a href="">Жибли цуглуулга</a>
+            </div>
+        </div>
+        <div class="mago">
+            <div class="hello">
+                <img src="orchuuljbaigaa5.png"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+            <div class="hello">
+                <img src="shineanime11.jpg"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+            <div class="hello">
+                <img src="orchuuljbaigaa6.jpg"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+            <div class="hello">
+                <img src="netflix4.jpg"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+            <div class="hello">
+                <img src="shineanime7.jpg"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+            <div class="hello">
+                <img src="animekino1.jpg"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+        </div>
+        <div class="duusgasan">
+            <div class="duussan">
+                <a href="">Шонэн Анимэ цуглуулга</a>
+            </div>
+        </div>
+        <div class="mago">
+            <div class="hello">
+                <img src="orchuuljbaigaa1.jpg"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+            <div class="hello">
+                <img src="shineanime12.jpg"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+            <div class="hello">
+                <img src="orchuuljbaigaa2.png"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+            <div class="hello">
+                <img src="netflix6.jpeg"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+            <div class="hello">
+                <img src="shineanime4.jpg"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+            <div class="hello">
+                <img src="animekino2.jpg"/>
+                <h2>Винланд сага: 21р анги</h2>
+            </div>
+        </div>
+        <div class="footer1">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-instagram"></i>
+        </div>
+        <div class="footer2">
+            <p1>MNFANSUBS © 2007-2020</p1>
+        </div>
+    </div>
+
+    
+</body>
+</html>
